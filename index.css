@@ -1,0 +1,49 @@
+body{
+  background-color: skyblue;
+  font-family: monospace;
+}
+.quiz{
+  background-color: yellow;
+  border: 5px double purple;
+  width: 450px;
+  padding: 40px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  color: blue;
+}
+button{
+  background-color: azure;
+  color: purple;
+  border-radius: 50px;
+  padding: 30px;
+  cursor: pointer;
+  font-size: 35px;
+  font-family: monospace;
+}
+button:hover{
+  background-color: black;
+  color: snow;
+}
+.quiz:hover{
+  background-color: blueviolet;
+}
+.question-section{
+  font-family: sans-serif;
+  font-size: 40px;
+  text-shadow: 4px 5px 6px navy;
+}
+.score-section{
+  font-size: 50px;
+  color: cyan;
+  background-color: navy;
+}
+.answer-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.question-text{
+  color: aliceblue;
+}
